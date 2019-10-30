@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap');
+
+
+body {
+  background-color: #F4FCD0;
+  font-family: 'Oswald', sans-serif;
+  color: #8E4162;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #25283D;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+
+}
+
+h2 {
+  color: #C9C9C9;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  color: #C9C9C9;
+}
+
+img {
+  border-radius: 50%;
+  height: 250px;
+  width: 200px;
+}
+a{
+  color:;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+}
+a:hover {
+  color: #EDA2C0;
+}
+li:hover {
+  color: #EDA2C0;
+}
+
+.inline-style {
+  display: inline-block;
+  margin: 20px;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.btn-blue {
+    background-color: #F4FCD0;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+div {
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  width: 700px;
+  background-color: white;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
